@@ -203,11 +203,19 @@ p{
 }
 
 footer{
-    background-color: black
+    padding: 15px;
+    background-color: black;
+    text-align: center;
 }
 
 footer p {
     color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+.icones{
+    width: 50px;
 }
 
 @media all and (max-width: 768px){

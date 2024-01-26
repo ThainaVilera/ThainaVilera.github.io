@@ -8,13 +8,14 @@
     <title>Thaina Vilera</title>
     <!-- iCONE -->
     <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+    <script src="https://kit.fontawesome.com/d93ceaf34d.js" crossorigin="anonymous" defer></script>
     <!-- CSS -->
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
 
-    <header> 
+    <header>
         <div class="header_container">
             <div class="logo">
                 <img class="foto" src="./img/eu.jpg" alt="minhafoto">
@@ -47,27 +48,27 @@
         <h3>SOBRE MIM</h3>
         <hr>
         <div class="subtitulos">
-            Aqui você encontrará mais "sobre mim", o que faço e minhas habilidades com programação e tecnologia. 
+            Aqui você encontrará mais "sobre mim", o que faço e minhas habilidades com programação e tecnologia.
         </div>
         <div class="coluna1">
-            <div class="destaque"> 
+            <div class="destaque">
                 <strong>Vem me conhecer!</strong>
             </div>
                 <p>Olá, me chamo Thainá, sou brasileira e sou inciante no meio do desenvolvimento web e quero compartilhar por aqui conteúdos relacionados ao meu aprendizado.</p>
                 <P>Estou aberta a oportunidades de trabalho na área para aprender, contribuir e crescer. </P>
         </div>
         <div class="coluna2">
-            <div class="destaque">  
+            <div class="destaque">
                 <strong>Minhas habilidades:</strong>
             </div>
-                <ul class="skills">
-                    <li class="habi">HTML</li> 
-                    <li class="habi">CSS</li> 
-                    <li class="habi">Github</li>
-                    <li class="habi">Javascript</li>
-                    <li class="habi">Python</li>
-                </ul>
-        </div>
+            <div>
+                <p class="habi">HTML
+                <p class="habi">CSS </p>
+                <p class="habi">Github</p>
+                <p class="habi">Javascript</p>
+                <p class="habi">Python</p>
+            </div>
+
     </section>
 
     <section id="projetos">
@@ -81,11 +82,11 @@
         <img class="projetos" src="./img/curriculo.png" alt="curriculo">
 
         <div class="destaque">
-            <strong>Currículo</strong>         
-        </div>  
+            <strong>Currículo</strong>
+        </div>
             <p><a href="https://thainavilera.github.io/curriculo/" target="_blank">Site</a> <a href="https://github.com/ThainaVilera/curriculo" target="_blank">Código</a></p>
             <p> O currículo foi minha primeira experiência com códigos. Inicialmente foi para conhecermos o HTML mas com o ganho de confiança o aprimorei com CSS. </p>
-            
+
         <img class="projetos" src="./img/cardapio.png" alt="cardapio">
 
         <div class="destaque">
@@ -94,9 +95,9 @@
 
             <p><a href="https://thainavilera.github.io/cardapio/" target="_blank">Site</a> <a href="https://github.com/ThainaVilera/cardapio" target="_blank">Código</a></p>
             <p>O cardápio foi para testar nossos conhecimentos. Foi o inicio para entendermos sobre box model.</p>
-       
+
             <img class="projetos" src="./img/ods.png" alt="ods">
-        
+
         <div class="destaque">
             <strong>ODS</strong>
         </div>
@@ -109,38 +110,47 @@
                 <strong>Receita de bolo de chocolate</strong>
         </div>
             <p><a href="https://thainavilera.github.io/receita-de-bolo-de-chocolate/" target="_blank">Site</a> <a href="https://github.com/ThainaVilera/receita-de-bolo-de-chocolate" target="_blank">Código</a></p>
-            <p>O cardápio foi um trabalho feito pelo site <a href="https://www.udemy.com/" target="_blank">Udemy</a> sugerido pela prof° Juliana. Esse trabalho foi para entender a hierarquia de títulos e sobre as listas ordenada e desordenada.</p>
+            <p>A receita de bolo de chocolate foi um trabalho feito pelo site <a href="https://www.udemy.com/" target="_blank">Udemy</a> sugerido pela prof° Juliana. Esse trabalho foi para entender a hierarquia de títulos e sobre as listas ordenada e desordenada.</p>
     </section>
-    
+
     <section id="contatos">
         <h3>CONTATO</h3>
         <hr>
         <div class="subtitulos">
-            E aqui, espero que fique à vontade para entrar em contato comigo. 
+            E aqui, espero que fique à vontade para entrar em contato comigo.
         </div>
-        <div class="formulario">
-        <form action="https://formsubmit.co/thainavilera96@gmail.com" method="POST" class="form">
+        <form action="https://formsubmit.co/thainavilera96@gmail.com" method="POST">
             <label for="name"><strong>Nome</strong></label>
+            <br>
             <input type="text" name="name" id="nome" required placeholder="Digite seu nome">
+            <br>
             <label for="email"><strong> E-mail</strong></label>
+            <br>
             <input type="email" name="email" id="email" required placeholder="Digite seu e-mail">
+            <br>
             <label for="message"><strong>Mensagem</strong></label>
+            <br>
             <textarea name="message" id="message" required placeholder="Escreva aqui"></textarea>
+            <br>
             <button type="submit">Enviar</button>
+            <!-- PARA O FORMULÁRIO FUNCIONAR -->
             <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
        </form>
-    </div>
     </section>
-    
-<footer> 
+
+<footer>
                 <p><strong>Thainá Vilerá </strong></p>
                 <p>Uma desenvolvedora iniciante ganhando apreço pela área e se dedicando aos trabalhos que lhes são atribuidos.</p>
                 <p>Projeto desenvolvido através do programa Elas na Tech, sob orientação da Prof° Juliana e monitoras Erika e Vanessa.</p>
                 </p>
                 <p>SOCIAL</p>
-    <a href="https://github.com/ThainaVilera" target="_blank"><img class="icones" src="./img/github.png" alt="github"></a>
-    <a href="https://www.linkedin.com/in/thain%C3%A1-viler%C3%A1/" target="_blank"><img class="icones" src="./img/linkedin.png" alt="linkedin"></a>
+    <a href="https://github.com/ThainaVilera" target="_blank"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/thain%C3%A1-viler%C3%A1/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    <hr>
+    <p>
+        &copy;Thainá Vilerá da Silva, 2023 - Todos os direitos reservados.
+    </p>
 </footer>
 
 </body>
